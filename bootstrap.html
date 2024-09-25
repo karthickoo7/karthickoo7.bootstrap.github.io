@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cars</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero {
+      background-image: url('https://english.onlinekhabar.com/wp-content/uploads/2021/07/New-hyundai-2048x670.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    .hero h1 {
+      font-size: 100px; /* Adjusted size for better responsiveness */
+    }
+    .department img {
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#departments">Departments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container text-lift">
+        <h1>Hyundai Adventure Edition</h1>
+      <p style="color: rgb(237, 14, 203);">Live the Lit adventure</p>
+    </div>
+  </section>
+
+  <!-- Hyundai Collection -->
+  <section class="container py-5">
+    <h2 class="text-center mb-4" style="color: rgb(241, 153, 19);">Hyundai Collection</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h3 style="background-color: rgb(34, 228, 215);">Collections</h3>
+        <p>There are a total of 14 Hyundai models currently on sale in India. These include 3 Hatchbacks, 9 SUVs and 2 Sedans. Hyundai has 6 upcoming car launches in India - the Hyundai Tucson 2024, Hyundai Kona Electric 2024, Hyundai Santa Fe 2025, Hyundai IONIQ 6, Hyundai Creta EV, Hyundai Inster.</p>
+      </div>
+      <div class="col-md-6">
+        <h3 style="background-color: rgb(34, 228, 215);">Hyundai Motor Company</h3>
+        <p>Hyundai Motor Co. (HMC), established in 1967, is the auto sales leader in the Korean domestic market and exports vehicles to 190 countries worldwide. Hyundai Motor Co. operates the world's largest integrated automobile manufacturing facility in Ulsan, located on Korea's southeast coast.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Departments Section -->
+  <section id="departments" class="container py-5">
+    <h2 class="text-center mb-4">What we do</h2>
+    <div class="row">
+      <!-- Press Shop -->
+      <div class="col-md-4">
+        <div class="card department">
+          <img src="https://www.hyundai.com/content/dam/hyundai/in/en/images/hyundai-story/hyundai-motor-india/pc/Hyundai_motor_india_About_us_page_2_what_we_do_PC_544x360_1_hyundai-plant-chennai-press-shop.jpg" class="card-img-top" alt="Cardiology">
+          <div class="card-body">
+            <h5 class="card-title">Press Shop</h5>
+            <p class="card-text">Hyundai Motor India's press shop uses a computer-controlled line to convert sheet metal into body panels. The line is designed dimensional accuracy and consistency.</p>
+            <!-- More Details Button -->
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#cardiologyDetails" aria-expanded="false" aria-controls="cardiologyDetails">
+              More Details
+            </button>
+            <div class="collapse mt-3" id="cardiologyDetails">
+              <p class="card-text">
+            </p>A computer controlled line that converts sheet metal to body panels with high dimensional accuracy and consistency.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Body Shop -->
+      <div class="col-md-4">
+        <div class="card department">
+          <img src="https://www.hyundai.com/content/dam/hyundai/in/en/images/hyundai-story/hyundai-motor-india/pc/Hyundai_motor_india_About_us_page_2_what_we_do_PC_544x360_2_hyundai-plant-chennai-body-shop.jpg" class="card-img-top" alt="Neurology">
+          <div class="card-body">
+            <h5 class="card-title">Body Shop</h5>
+            <p class="card-text">It is a hi-tech line that builds full body shells from panels. Automated robotic arms are used for intricate welding operations that ensure superior and consistent build quality.</p>
+            <!-- More Details Button -->
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#neurologyDetails" aria-expanded="false" aria-controls="neurologyDetails">
+              More Details
+            </button>
+            <div class="collapse mt-3" id="neurologyDetails">
+              <p class="card-text">Hyundai Motor Company has served as the trailblazer of Korea's automobile industry since rolling out its Pony, developed with its own exclusive technology. Hyundai Motor Company has risen as a globally recognized automobile manufacturer that exports its branded vehicles to over 200 countries.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Paint Shop -->
+      <div class="col-md-4">
+        <div class="card department">
+          <img src="https://www.hyundai.com/content/dam/hyundai/in/en/images/hyundai-story/hyundai-motor-india/pc/Hyundai_motor_india_About_us_page_2_what_we_do_PC_544x360_3_hyundai-plant-chennai-paint-shop.jpg" class="card-img-top" alt="Orthopedics">
+          <div class="card-body">
+            <h5 class="card-title">Paint Shop</h5>
+            <p class="card-text">It is one of the most modern paint shops in the country and uses the environment friendly water based process for superior and lasting exteriors.</p>
+            <!-- More Details Button -->
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#orthopedicsDetails" aria-expanded="false" aria-controls="orthopedicsDetails">
+              More Details
+            </button>
+            <div class="collapse mt-3" id="orthopedicsDetails">
+              <p class="card-text">A unique process management system followed here helps us deliver the most extensive colour range, independent of minimum batch requirements, helping customers get their preferred colour anytime..</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- New Departments Row -->
+    <div class="row mt-4">
+      <!-- Assembly Shop -->
+      <div class="col-md-4">
+        <div class="card department">
+          <img src="https://www.hyundai.com/content/dam/hyundai/in/en/images/hyundai-story/hyundai-motor-india/pc/Hyundai_motor_india_About_us_page_2_what_we_do_PC_544x360_4_hyundai-plant-chennai-assembly-shop.jpg" class="card-img-top" alt="Pediatrics">
+          <div class="card-body">
+            <h5 class="card-title">Assembly Shop</h5>
+            <p class="card-text">The Assembly Shop comprises the Trim Line, the Chassis Line, the Final Line and the OK Line.</p>
+            <!-- More Details Button -->
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#pediatricsDetails" aria-expanded="false" aria-controls="pediatricsDetails">
+              More Details
+            </button>
+            <div class="collapse mt-3" id="pediatricsDetails">
+              <p class="card-text">In Assembly Shop all the engine and suspension parts, the electrical parts, the under body parts etc are fitted into the car. The cars go through complete testing in the Assembly Shop.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Engine & Transmission Shop -->
+      <div class="col-md-4">
+        <div class="card department">
+          <img src="https://www.hyundai.com/content/dam/hyundai/in/en/images/hyundai-story/hyundai-motor-india/pc/Hyundai_motor_india_About_us_page_2_what_we_do_PC_544x360_5_hyundai-plant-chennai-engine-&-transmission-shop.jpg" class="card-img-top" alt="Oncology">
+          <div class="card-body">
+            <h5 class="card-title">Engine & Transmission Shop</h5>
+            <p class="card-text">Lexus. According to J.D. Power's 2023 Vehicle Dependability Study, Lexus topped the list of rankings and RX model (tied Toyota'sC-HR).</p>
+            <!-- More Details Button -->
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#oncologyDetails" aria-expanded="false" aria-controls="oncologyDetails">
+              More Details
+            </button>
+            <div class="collapse mt-3" id="oncologyDetails">
+              <p class="card-text">One of the biggest engine shops in the country, this unit is equipped with the most modern tooling and testing facilities to make a wide range of engines in-house.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- crash test points -->
+      <div class="col-md-4">
+        <div class="card department">
+          <img src="https://www.hyundai.com/content/dam/hyundai/ww/en/images/brand-journal/mobility-solution/230331-safety-centered-on-humanity/safety-centered-on-humanity-stg-social.jpg" class="card-img-top" alt="Dermatology">
+          <div class="card-body">
+            <h5 class="card-title"> crash test points</h5>
+            <p class="card-text">Hyundai and Kia brands, had the most 2024 awards overall — six Top Safety Pick+ and 10 Top Safety Pick awards for a total of 16..</p>
+            <!-- More Details Button -->
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#dermatologyDetails" aria-expanded="false" aria-controls="dermatologyDetails">
+              More Details
+            </button>
+            <div class="collapse mt-3" id="dermatologyDetails">
+              <p class="card-text">
+                All Hyundai vehicles are built to withstand impact and protect all passengers in case a collision does occur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- Contact Section -->
+  <section id="contact" class="container py-5">
+    <h2 class="text-center mb-4">Contact Us</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="3" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
